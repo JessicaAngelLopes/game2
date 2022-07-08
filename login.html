@@ -11,12 +11,15 @@
         <meta name="viewport"content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="css/loguin.css">
-
+       
+        
         <title>Login</title>
+
 
     </head>
 
     <body>
+      
 
         <div id="login">
 
@@ -34,7 +37,8 @@
 
                         <label for="usuario">Usuário</label>
 
-                        <input type="text" id="usuario" autocomplete="off">
+                        <input type="text" id="usuario">
+                        <small id="textUsuario"></small>
 
                     </div>
 
@@ -42,7 +46,8 @@
 
                         <label for="password">Senha</label>
 
-                        <input type="password" id="password" autocomplete="off">
+                        <input type="password" id="password">
+                        <small id="textPassword"></small>
 
                     </div>
 
@@ -50,16 +55,30 @@
 
                 <div class="card-footer">
 
-                    <input type="submit" value="login" class="submit">
 
-                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+                    <input type="submit" class="submit">
+
+                    <small id="textForm"></small>
+
+                    <a href="#" class="recuperar">Esqueceu a senha?</a>
+                    
+                    <small id="textRecuperar"></small>
+
+                  
 
                 </div>
 
             </form>
 
         </div>
+        <script src="javascript/script.js"></script>
+       
+     
 
     </body>
-
+ 
+   
+  
+  
+  
 </html>
